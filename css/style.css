@@ -17,7 +17,7 @@
   margin-top: 50px;
   top: 0;
   left: 0;
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: 'Courier New', Courier, monospace;
   font-size: 70px;
   text-shadow: 0px 0px 20px white;
@@ -204,7 +204,7 @@ body {
   transform-origin: bottom left;
   border-radius: 4vmin 10vmin 4vmin 4vmin;
   transform: translate(0%, 18%) rotateX(70deg) rotate(-43deg);
-  background-image: linear-gradient(to top, rgba(255, 2555, 255, 0.4), #fff);
+  background-image: linear-gradient(to top, rgba(255, 2555, 255, 0.4), #e416c1);
   z-index: 1;
   opacity: 0.8;
   -webkit-transform: translate(0%, 18%) rotateX(70deg) rotate(-43deg);
@@ -220,7 +220,7 @@ body {
   width: 9vmin;
   height: 4vmin;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: #e416c1;
 }
 
 .flower__white-circle::after {
@@ -253,7 +253,7 @@ body {
   height: var(--h);
   border-top-right-radius: var(--h);
   border-bottom-left-radius: var(--h);
-  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.4), #fff);
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.4), #e416c1);
 }
 
 .flower__line__leaf--1 {
